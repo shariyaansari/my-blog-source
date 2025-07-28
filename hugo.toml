@@ -1,0 +1,35 @@
+baseURL = "https://<YOUR-GITHUB-USERNAME>.github.io/"
+languageCode = "en-us"
+title = "My Profile"
+theme = "profile"
+
+# These are the parameters for the hugo-profile theme
+[params]
+  # The name to display as the title of the home page
+  name = "Shariya Ansari"
+
+  # The subtitle to display under the title
+  bio = "Your awesome bio goes here. Tech enthusiast | Blogger | Lifelong Learner"
+
+  # The path to your avatar image. 
+  # Place your image in the `static/images/` folder and link to it here.
+  # For example, if your image is `static/images/profile.jpg`, the path is "images/profile.jpg"
+  avatar = "images/profile.jpg" 
+
+  # A list of social media links.
+  # The icon is determined by the name of the social media.
+  # You can find a list of supported icons in the theme's documentation.
+  [[params.social]]
+    name = "github"
+    url = "https://github.com/shariyaansari"
+  [[params.social]]
+    name = "linkedin"
+    url = "https://www.linkedin.com/in/shariya-ansari-a4671b222/"
+
+
+# We are not using regular blog posts for this theme, so we can disable them for now
+[menu]
+  [[menu.main]]
+    name = "About"
+    url = "/"
+    weight = 1
